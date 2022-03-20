@@ -2,7 +2,7 @@
 
 ## Overview
 
-As a data visualization specialist at the Disaster Reporting Network, we were asked to build insightful data visualizations with interactive featuring on earthquakes around the world.  Being able to present earthquake information via interactive maps should enable the company to draw people in who might otherwise be bored with information being displayed in a standard list or spreadsheet.
+As a data visualization specialist at the Disaster Reporting Network, we were asked to build insightful data visualizations with interactive featureson earthquakes around the world.  Being able to present earthquake information on interactive maps should enable the company to draw people in who might otherwise be bored with information being displayed via a standard list or spreadsheet.
 
 ![Initial Earthquake Map](https://github.com/Jeffstr00/Mapping_Earthquakes/blob/main/Resources/map1.png)
 
@@ -21,7 +21,7 @@ After reading in JSON files containing the latest earthquake information, we use
       weight: 2.5
   }).addTo(tectonicPlates);
 
-  tectonicPlates.addTo(map);```
+  tectonicPlates.addTo(map); ```
 
 To add an overlay with tectonic plates to our map, we used the above code to read in tectonic plate locations, used them as the data to add them to the map, and customized the look by adjusting the opacity, color, and weight (line size) in the layout.  
 

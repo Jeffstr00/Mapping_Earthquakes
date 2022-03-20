@@ -40,13 +40,14 @@ Luckily for us, the Major Earthquakes map wasn't too different from the standard
       return "#ea2c2c";
     }
     return "#ea822c";
-  }```
+  }   
+```
 
 This added a very bright red for earthquakes of the highest (6+) magnitude so that they would visually stand out.  
 
 ### Additional Maps
 
-To enhance the visualization options, we opted to add two additional maps: outdoors and dark.  Outdoors (seen in the previous section's image) was similar to the old streets map, but when dealing with earthquakes, we aren't really concerned with driving on roads, so an outdoors one made more sense.  The contrast between the background on the dark map and the bright earthquake markers really made the earthquakes "pop" and gave them a violent feel.  For illustrating earthquakes, this was perfect.
+To enhance the visualization options, we opted to add two additional maps: outdoors and dark.  Outdoors (seen in the previous section's image) was similar to the old streets map, but when dealing with earthquakes, we aren't really concerned with driving on roads, so an outdoors-focused one made more sense.  The contrast between the background on the dark map and the bright earthquake markers really made the earthquakes "pop" and gave them a violent feel.  For illustrating earthquakes, this was perfect.
 
 Like with our previous maps, we added the dark one using (with our API_KEY residing in a separate config file):
 
@@ -54,8 +55,9 @@ Like with our previous maps, we added the dark one using (with our API_KEY resid
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
 	accessToken: API_KEY
-});```
+});   
+```
 
 ## Summary
 
-In the end, we were able to use HTML, JavaScript, APIs/JSON files, and Leaflet/Mapbox to create and display up-to-date maps featuring earthquakes all over the world.  New additions to the map included tectonic plate mapping, major earthquake differentiation to hightlight especially large earthquakes, and new maps which hopefully make the visualizations even more striking.  Easily displaying to people via their computers, phones, etc. aims to get and keep more people interested in earthquakes and the Disaster Reporting Network.
+In the end, we were able to use HTML, JavaScript, APIs/JSON files, and Leaflet/Mapbox to create and display up-to-date maps featuring earthquakes all over the world.  New additions to the map included tectonic plate mapping, major earthquake differentiation to hightlight especially large earthquakes, and new maps which hopefully make the visualizations even more striking.  Easily displaying these maps to people via their computers, phones, etc. aims to get and keep more people interested in both earthquakes and the Disaster Reporting Network as a whole.

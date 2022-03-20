@@ -6,7 +6,7 @@ As a data visualization specialist at the Disaster Reporting Network, we were as
 
 ![Initial Earthquake Map](https://github.com/Jeffstr00/Mapping_Earthquakes/blob/main/Resources/map1.png)
 
-After reading in JSON files containing the latest earthquake information, we used JavaScript to customize and Leaflet/Mapbox to create a map which highlights earthquakes all over the globe.  Earthquake magnitudes are intuitively conveyed using both marker size and color (<span style="color:green">green = mild</span>, <span style="color:red">red = severe</span>).  While this was a good start, we were then asked to add a few more options to the map: tectonic plate location, displays specifically for 4.5+ magnitude earthquakes, and additional maps to choose from.
+After reading in JSON files containing the latest earthquake information, we used JavaScript to customize and Leaflet/Mapbox to create a map which highlights earthquakes all over the globe.  Earthquake magnitudes are intuitively conveyed using both marker size and color (<p style="color:green">green = mild</p>, <p style="color:red">red = severe</p>).  While this was a good start, we were then asked to add a few more options to the map: tectonic plate location, displays specifically for 4.5+ magnitude earthquakes, and additional maps to choose from.
 
 ## Results
 

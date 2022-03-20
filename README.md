@@ -21,7 +21,8 @@ After reading in JSON files containing the latest earthquake information, we use
       weight: 2.5
   }).addTo(tectonicPlates);
 
-  tectonicPlates.addTo(map); ```
+  tectonicPlates.addTo(map);   
+```
 
 To add an overlay with tectonic plates to our map, we used the above code to read in tectonic plate locations, used them as the data to add them to the map, and customized the look by adjusting the opacity, color, and weight (line size) in the layout.  
 

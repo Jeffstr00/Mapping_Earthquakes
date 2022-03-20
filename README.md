@@ -1,5 +1,7 @@
 # Mapping Earthquakes with JavaScript & APIs
 
+![Earthquake WWF](https://github.com/Jeffstr00/Mapping_Earthquakes/blob/main/Resources/earthquake_wwf.jpg)
+
 ## Overview
 
 As a data visualization specialist at the Disaster Reporting Network, we were asked to build insightful data visualizations with interactive featureson earthquakes around the world.  Being able to present earthquake information on interactive maps should enable the company to draw people in who might otherwise be bored with information being displayed via a standard list or spreadsheet.
